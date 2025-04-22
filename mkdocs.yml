@@ -1,0 +1,34 @@
+site_name: Tutorial Apptainer
+theme:
+  name: material
+  language: pt
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+nav:
+  - Início: index.md
+  - Instalação: installation.md
+  - Comandos: commands.md
+  - Build de Imagens: build.md
+  - Extras: extras.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  generator: false
+
