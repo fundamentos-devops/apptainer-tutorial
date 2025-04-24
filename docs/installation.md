@@ -3,7 +3,24 @@
     O <b>Apptainer</b> é uma ferramenta de containers amplamente utilizada em ambientes de pesquisa, HPC e computação científica. Ele permite criar e executar containers de forma segura e eficiente, mesmo em sistemas onde você não tem permissões de superusuário.
 </p>
 
-Escolha sua distribuição para começar:
+## Pré-requisitos
+
+O Apptainer é executado nativamente no Linux, mas também pode ser utilizado em Windows e macOS por meio de máquinas virtuais (VMs). Abaixo estão os pré-requisitos recomendados para instalação e uso:
+
+- **Sistema operacional**: 
+  - Linux (nativamente)  
+  - Windows/macOS (via máquinas virtuais)
+
+- **Espaço em disco**:  
+  - Aproximadamente 200 MiB após compilação e instalação
+
+- **Requisitos de hardware**:  
+  - Nenhum requisito específico de CPU ou memória para execução
+  - Recomendado pelo menos 2 GB de RAM ao compilar a partir do código-fonte
+
+## Instalação
+
+Escolha sua distribuição:
 
 === "Ubuntu / Debian"
 
