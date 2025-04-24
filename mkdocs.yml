@@ -18,7 +18,7 @@ nav:
   - Início: index.md
   - Instalação: installation.md
   - Comandos: commands.md
-  - Build de Imagens: build.md
+  - Exemplos: examples.md
   - Extras: extras.md
 
 markdown_extensions:
